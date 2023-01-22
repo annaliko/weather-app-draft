@@ -66,4 +66,8 @@ ul {
   text-align: center;
   color: blueviolet;
   margin-bottom: 0px 20px;
+  cursor: pointer;
+}
+a:visited {
+  color: rgb(94, 12, 172);
 }
