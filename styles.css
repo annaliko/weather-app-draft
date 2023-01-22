@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.weather-app {
+  border: 1px solid;
+  border-color: #b3cac9;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 600px;
+}
+h1,
+ul {
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  padding-top: 50px;
+}
+ul {
+  list-style: none;
+}
+.todays-weather {
+  padding-left: 175px;
+}
+#temperature {
+  position: relative;
+  margin: auto;
+  color: rgb(83, 15, 110);
+  font-size: 45px;
+}
+#city {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(254, 102, 148);
+}
+#celsius {
+  text-decoration: none;
+}
+#fahrenheit {
+  text-decoration: none;
+}
+.main-emoji {
+  font-size: 120px;
+  padding-top: 20px;
+  padding-left: 50px;
+  color: rgb(160, 153, 153);
+}
+.emoji {
+  color: blue;
+}
+.columns-days {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.col-2 {
+  padding: 0px 15px;
+  text-align: center;
+  font-size: 20px;
+}
